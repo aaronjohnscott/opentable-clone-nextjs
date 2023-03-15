@@ -11,7 +11,7 @@ export default function Home() {
         < NavBar />
         <main>
           <Header />
-          <div className="py-3 px-36 mt-10 flex flex-wrap justify-center">
+          <div className="py-3 px-36 mt-10 flex flex-wrap justify-center" id="trial">
             <RestaurantCard />
           </div>
         </main>

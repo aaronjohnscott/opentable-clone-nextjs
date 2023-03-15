@@ -1,4 +1,5 @@
 .main {
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,6 +53,11 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+}
+
+#trial {
+  background: linear-gradient(to bottom, #1a2a6c, #fdbb2d);
+
 }
 
 .card span {
